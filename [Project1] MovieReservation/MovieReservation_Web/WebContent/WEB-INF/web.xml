@@ -36,6 +36,6 @@
   	<listener-class>kr.co.kosta.study.moviereservation.util.DataUtilListener</listener-class>
   </listener>
 
-  <!-- 2015.03.23 -->
+  <!-- 2015.03.26 -->
   
 </web-app>
