@@ -11,6 +11,12 @@ import javax.servlet.ServletContextListener;
 
 import org.apache.tomcat.dbcp.dbcp.BasicDataSource;
 
+/**
+ * @author jdy 2015-03-30(최종수정)
+ * 
+ * ServletContextListener를 상속받은 Class로
+ * Oracle6.jar libs의 BasicDataSource를 구현한다.
+ */
 class DataUtilListener implements ServletContextListener {
 	private static DataUtilListener dataUtilListener;
 	private BasicDataSource dataSource;
