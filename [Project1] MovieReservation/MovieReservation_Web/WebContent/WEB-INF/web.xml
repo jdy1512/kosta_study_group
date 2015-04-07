@@ -9,7 +9,9 @@
     <welcome-file>default.htm</welcome-file>
     <welcome-file>default.jsp</welcome-file>
   </welcome-file-list>
-  
+  <servlet>
+  <servlet-name>moviename</servlet-name>
+  </servlet>
   <!-- context param -->
   <context-param>
   	<param-name>oracle_db_driver</param-name>
