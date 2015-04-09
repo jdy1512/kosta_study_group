@@ -31,10 +31,28 @@
   	<param-value>tiger</param-value>
   </context-param>
   
+  <context-param>
+  	<param-name>rootPath</param-name>
+  	<param-value>/MovieReservation_Web</param-value>
+  </context-param>
+  
   <!-- listener -->
   <listener>
   	<listener-class>kr.co.kosta.study.moviereservation.util.DataUtilListener</listener-class>
   </listener>
+  
+  <!-- Servlet -->
+  <servlet>
+  	<description></description>
+  	<display-name>MovieFrontController</display-name>
+  	<servlet-name>MovieFrontController</servlet-name>
+  	<servlet-class>kr.or.kosta.study.moviereservation.common.controller</servlet-class>
+  </servlet>	
+  <servlet-mapping>
+  	<servlet-name>MovieFrontController</servlet-name>
+  	<url-pattern>/MovieFrontController</url-pattern>
+  </servlet-mapping>
+  	
 
   <!-- 2015.03.xx -->
   
