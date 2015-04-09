@@ -16,7 +16,7 @@ public class MovieReservationService {
 		return instance;
 	}
 	
-	public int setMovie(Movie movie) throws SQLException{
+	public int setMovieByAdministrator(Movie movie) throws SQLException{
 		return movieDAO.insertMovieByAdministrator(movie);
 	}
 }

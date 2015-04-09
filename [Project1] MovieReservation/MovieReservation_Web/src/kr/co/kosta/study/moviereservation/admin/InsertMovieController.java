@@ -24,9 +24,9 @@ public class InsertMovieController implements Controller{
 		String imagePath = request.getParameter("imagePath");
 		
 		try{
-			MovieReservationService.getInstance().setMovie(new Movie(genre
-						, name, director, actor, playDate, watchGrade
-						, viewingTime, synopsis, imagePath)); 
+			MovieReservationService.getInstance().setMovieByAdministrator
+						(new Movie(genre, name, director, actor, playDate
+						, watchGrade, viewingTime, synopsis, imagePath)); 
 		}catch(Exception e){
 			e.printStackTrace();
 		}
